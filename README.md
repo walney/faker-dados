@@ -43,6 +43,10 @@ million.php - https://raw.githubusercontent.com/ribafs/data-testes/master/millio
 
 anothers.php - https://raw.githubusercontent.com/ribafs/data-testes/master/anothers.php
 
+Após gerar um milhão de registros veja como ficou o início do arquivo:
+
+<img src="amostra.png">
+
 ## Licença
 
 MIT
