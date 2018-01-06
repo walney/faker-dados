@@ -47,6 +47,13 @@ Após gerar um milhão de registros veja como ficou o início do arquivo:
 
 <img src="amostra.png">
 
+## Dica Extra
+
+Se por algum motivo quizer gerar datas no formato usado no Brasil use:
+
+print $faker->date($format = 'd/m/Y', $max = 'now').'<br>';
+
+
 ## Licença
 
 MIT
