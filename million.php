@@ -4,6 +4,8 @@ ini_set('max_input_time', 120);// s
 ini_set('max_input_nesting_level', 64);//s
 ini_set('memory_limit', '-1');//Ilimitada?
 
+header("Content-Type: text/html;  charset=UTF-8",true);
+    
 // require the Faker autoloader
 require_once 'vendor/autoload.php';
 // alternatively, use another PSR-0 compliant autoloader (like the Symfony2 ClassLoader for instance)
