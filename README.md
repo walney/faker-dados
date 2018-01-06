@@ -61,6 +61,27 @@ Se por algum motivo quizer gerar datas no formato usado no Brasil use:
 
 print $faker->date($format = 'd/m/Y', $max = 'now');
 
+## Importando o Script
+
+Uma forma simples de importar este script é fazendo pelo terminal:
+
+- Copiar ele para um certo diretório
+- Descompactar
+- Abrir o terminal e executar (supondo importar para o banco cadastro):
+
+mysql -uroot -p cadastro < clientes.sql
+
+Outra forma é usando o adminer (http://adminer.org)
+
+Editar o adminer.php e inserir as linhas abaixo (logo abaixo do <?php):
+
+ini_set('max_execution_time', '-1');// Ilimitados
+ini_set('max_input_time', 120);// s
+ini_set('max_input_nesting_level', 64);//s
+ini_set('memory_limit', '-1');//Ilimitada?
+
+Para importar pelo phpmyadmin precisa ajustar o php.ini de acordo com as 4 linhas acima
+
 
 ## Observação
 
