@@ -89,6 +89,9 @@ Quase desnecessário dizer mas da mesma forma que criei um script sql compatíve
 
 Como também que a quantidade de registros gerada é livre, tanto podemos gerar uma quantidade menor quanto uma maior que um milhão. Lembrando apenas de usar o número abaixo sendo um a menos que o primeiro.
 
+## Codificação de caracteres
+
+Quando importei o script clientes.sql aqui percebi que existe um problema de codificação de caracteres com alguns nomes. Então adicionei a linha para corrigir isso no arquivo million.php e sugiro que se quizer seu script sem estes problemas de caractere, que gere você mesmo o seu. Aí pode customizar à vontade.
 
 ## Licença
 
