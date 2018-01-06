@@ -51,7 +51,9 @@ Após gerar um milhão de registros veja como ficou o início do arquivo:
 
 Para quem quizer usar s pacote que eu gerei, com 300.000 registros e 1 milhão:
 
+Um milhão de registros - https://raw.githubusercontent.com/ribafs/data-testes/master/ummilhao.sql.7z
 
+300.000 registros - 
 
 ## Dica Extra
 
