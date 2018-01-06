@@ -39,9 +39,9 @@ Para dar uma ideia: para abrir o arquivo no gedit levou 4 minutos.
 
 Veja os exemplos de uso:
 
-milhao.php - http://
+million.php - https://raw.githubusercontent.com/ribafs/data-testes/master/million.php
 
-outros.php
+anothers.php - https://raw.githubusercontent.com/ribafs/data-testes/master/anothers.php
 
 ## Licença
 
