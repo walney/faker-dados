@@ -37,7 +37,7 @@ Mas valeu a pena pois a opção localizada gera dados mais parecidos com os noss
 
 Para dar uma ideia: para abrir o arquivo no gedit levou 4 minutos.
 
-Veja os exemplos de uso:
+## Exemplos de uso em php
 
 million.php - https://raw.githubusercontent.com/ribafs/data-testes/master/million.php
 
@@ -46,6 +46,12 @@ anothers.php - https://raw.githubusercontent.com/ribafs/data-testes/master/anoth
 Após gerar um milhão de registros veja como ficou o início do arquivo:
 
 <img src="amostra.png">
+
+## Pacotes prontos
+
+Para quem quizer usar s pacote que eu gerei, com 300.000 registros e 1 milhão:
+
+
 
 ## Dica Extra
 
