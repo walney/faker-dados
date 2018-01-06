@@ -58,6 +58,8 @@ print $faker->date($format = 'd/m/Y', $max = 'now');
 
 Quase desnecessário dizer mas da mesma forma que criei um script sql compatível com o MySQL podemos gerar para qualquer outro SGBD apenas seguindo dua sintaxe.
 
+Como também que a quantidade de registros gerada é livre, tanto podemos gerar uma quantidade menor quanto uma maior que um milhão. Lembrando apenas de usar o número abaixo sendo um a menos que o primeiro.
+
 
 ## Licença
 
