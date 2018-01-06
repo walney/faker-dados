@@ -51,7 +51,7 @@ Após gerar um milhão de registros veja como ficou o início do arquivo:
 
 Se por algum motivo quizer gerar datas no formato usado no Brasil use:
 
-print $faker->date($format = 'd/m/Y', $max = 'now').'<br>';
+print $faker->date($format = 'd/m/Y', $max = 'now');
 
 
 ## Observação
