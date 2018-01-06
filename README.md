@@ -53,6 +53,7 @@ Se por algum motivo quizer gerar datas no formato usado no Brasil use:
 
 print $faker->date($format = 'd/m/Y', $max = 'now').'<br>';
 
+
 ## Observação
 
 Quase desnecessário dizer mas da mesma forma que criei um script sql compatível com o MySQL podemos gerar para qualquer outro SGBD apenas seguindo dua sintaxe.
