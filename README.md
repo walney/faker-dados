@@ -89,6 +89,8 @@ Quase desnecessário dizer mas da mesma forma que criei um script sql compatíve
 
 Como também que a quantidade de registros gerada é livre, tanto podemos gerar uma quantidade menor quanto uma maior que um milhão. Lembrando apenas de usar o número abaixo sendo um a menos que o primeiro.
 
+## Problema ainda sem solução
+Mesmo usando o comando para codificação UTF-8 no início do arquivo, ainda assim alguns nomes aparecem com problema no acento.
 
 ## Licença
 
