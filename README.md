@@ -89,8 +89,11 @@ Quase desnecessário dizer mas da mesma forma que criei um script sql compatíve
 
 Como também que a quantidade de registros gerada é livre, tanto podemos gerar uma quantidade menor quanto uma maior que um milhão. Lembrando apenas de usar o número abaixo sendo um a menos que o primeiro.
 
-## Problema ainda sem solução
+## Problema de codificação de caracteres
+
 Mesmo usando o comando para codificação UTF-8 no início do arquivo, ainda assim alguns nomes aparecem com problema no acento.
+Descobri. Aconteceu de criar o banco com latin1 e importar a tabela como UTF-8.
+Então lembre de criar o banco com UTF-8, recomendo utf8mb4_unicode_ci para evitar problemas com acentuação.
 
 ## Licença
 
