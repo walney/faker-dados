@@ -95,6 +95,10 @@ Mesmo usando o comando para codificação UTF-8 no início do arquivo, ainda ass
 Descobri. Aconteceu de criar o banco com latin1 e importar a tabela como UTF-8.
 Então lembre de criar o banco com UTF-8, recomendo utf8mb4_unicode_ci para evitar problemas com acentuação.
 
+Mesmo em um banco com UTF-8 o problema da acentuação ainda persistia. Então resolvi adicionando charset na linha da conexão com o banco:
+
+$dsn = $this->sgbd.':host='.$this->host.';dbname='.$this->db.';charset=utf8';
+
 ## Licença
 
 MIT
